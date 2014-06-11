@@ -25,6 +25,10 @@ body {
   background: rgba(0, 0, 0, 0.99);
   text-shadow: none; }
 
+/* FA 4.0.0 and newer */
+.reveal .fa {
+  font-family: 'FontAwesome';
+}
 /*********************************************
 * HEADERS
 *********************************************/
@@ -67,7 +71,9 @@ body {
 * LINKS
 *********************************************/
 .reveal a:not(.image) {
-  color: darkblue;
+  background-color: #d33682;;
+  color: #FFF;
+  padding:10px;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -76,7 +82,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #0000f1;
+  color: #FFF;
   text-shadow: none;
   border: none; }
 
@@ -95,7 +101,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: darkblue;
+  background-color: #B2FF99;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************

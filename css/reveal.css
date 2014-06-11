@@ -44,6 +44,11 @@ display: block;
 * GLOBAL STYLES
 *********************************************/
 
+/* FA 4.0.0 and newer */
+.reveal .fa {
+  font-family: 'FontAwesome';
+}
+
 html,
 body {
 width: 100%;
